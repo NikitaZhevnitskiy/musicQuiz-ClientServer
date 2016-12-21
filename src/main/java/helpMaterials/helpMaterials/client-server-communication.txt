@@ -1,0 +1,13 @@
+1)How it works?
+    1. Server runs as a new thread
+    2. In method run() server listen to income connections
+    3. For each income Client connection, Server create a new Thread
+    4. That client thread call play() and server run client's thread
+
+    5. Play() controlled by two while loops:
+        Get response from clients are stmt for loops
+        Send request to clients is object (Question or PlayerScore)
+    6. After loops - game is over.
+    7. Server get last response about saving score
+    8. Server send last request with object which contain top10 players
+
