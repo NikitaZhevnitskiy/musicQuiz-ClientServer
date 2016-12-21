@@ -5,6 +5,7 @@ Application based on client-server model
 * change property file (dbName, dbUserName, dbPass, dbPort, etc)
 * run ~/helpMaterials/CreateAndFillTables (or do it manually)
 * build Maven project
+
 ### how to play
 * run server
 * run client (multi clients)
